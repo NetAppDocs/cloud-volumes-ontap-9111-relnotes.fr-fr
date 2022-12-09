@@ -129,7 +129,7 @@ Si vous choisissez l'un de ces types de VM lorsque vous déployez un nouveau sys
 +
 Inversement, si vous avez déployé Cloud Volumes ONTAP à l'aide d'un autre type de VM, vous ne pourrez pas passer à un type de VM utilisant un SSD Ultra pour VNVRAM. Par exemple, vous ne pouvez pas passer de E8s_v3 à E8ds_v4.
 
-. Lors de l'utilisation d'un système à un seul nœud, la vitesse d'écriture élevée est prise en charge avec tous les types d'instances. Vous pouvez activer la vitesse d'écriture élevée depuis Cloud Manager lors du déploiement ou à tout moment après. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["En savoir plus sur le choix d'une vitesse d'écriture"^].
+. Lors de l'utilisation d'un système à un seul nœud, la vitesse d'écriture élevée est prise en charge avec tous les types d'instances. Vous pouvez activer la vitesse d'écriture élevée depuis BlueXP pendant le déploiement ou à tout moment après. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["En savoir plus sur le choix d'une vitesse d'écriture"^].
 . Les performances d'écriture améliorées sont activées lorsque l'utilisation de disques SSD est utilisée.
 . Pour la prise en charge par région Azure, consultez la section https://cloud.netapp.com/cloud-volumes-global-regions["Régions Cloud volumes Global"^].
 . Cloud Volumes ONTAP peut être exécuté sur une instance de machine virtuelle réservée ou à la demande auprès de votre fournisseur cloud. Les solutions qui utilisent d'autres types d'instances VM ne sont pas prises en charge.
@@ -210,7 +210,7 @@ Lors du déploiement de Cloud Volumes ONTAP en tant que paire HA dans Azure, vou
 |===
 Remarques :
 
-. Avec Cloud Volumes ONTAP, la vitesse d'écriture est élevée pour ces types de VM lors de l'utilisation d'une paire haute disponibilité. Vous pouvez activer la vitesse d'écriture élevée depuis Cloud Manager lors du déploiement ou à tout moment après. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["En savoir plus sur le choix d'une vitesse d'écriture"^].
+. Avec Cloud Volumes ONTAP, la vitesse d'écriture est élevée pour ces types de VM lors de l'utilisation d'une paire haute disponibilité. Vous pouvez activer la vitesse d'écriture élevée depuis BlueXP pendant le déploiement ou à tout moment après. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-write-speed.html["En savoir plus sur le choix d'une vitesse d'écriture"^].
 . Cette machine virtuelle est recommandée uniquement lorsque le contrôle de maintenance Azure est nécessaire. Cette utilisation n'est pas recommandée pour les autres cas d'utilisation en raison des tarifs plus élevés.
 . PAYGO Explore n'est pas pris en charge avec les paires haute disponibilité dans Azure.
 . Pour la prise en charge par région Azure, consultez la section https://cloud.netapp.com/cloud-volumes-global-regions["Régions Cloud volumes Global"^].

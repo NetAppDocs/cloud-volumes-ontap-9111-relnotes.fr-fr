@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference-new.html 
-keywords: 'what"s new, new, features, release notes, enhancements' 
+keywords: new features, release notes, enhancements 
 summary: Cloud Volumes ONTAP 9.11.1 inclut une nouvelle amélioration. 
 ---
 = Nouveautés de Cloud Volumes ONTAP 9.11.1
@@ -16,7 +16,15 @@ summary: Cloud Volumes ONTAP 9.11.1 inclut une nouvelle amélioration.
 [role="lead"]
 Cloud Volumes ONTAP 9.11.1 comprend de nouvelles améliorations.
 
-D'autres fonctionnalités et améliorations sont également introduites dans les dernières versions de Cloud Manager. Voir la https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Notes de version de Cloud Manager"^] pour plus d'informations.
+D'autres fonctionnalités et améliorations sont également introduites dans les dernières versions de BlueXP. Voir la https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Notes de mise à jour BlueXP"^] pour plus d'informations.
+
+
+
+== 9.11.1 P3 (19 octobre 2022)
+
+Le correctif 9.11.1 P3 est désormais disponible pour Cloud Volumes ONTAP pour tous les fournisseurs cloud si un connecteur exécute la version 3.9.22 ou ultérieure. BlueXP vous invitera à mettre à niveau vos systèmes existants vers cette version de correctif.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.11.1P3["Consultez la liste des bugs corrigés dans le patch P3"^] (Identifiant du site du support NetApp requis).
 
 
 
@@ -92,7 +100,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions["Consultez la liste compl�
 
 Depuis cette version, si vous créez une nouvelle machine virtuelle de stockage sur une paire HA Cloud Volumes ONTAP dans AWS ou Azure, vous devez modifier les règles de services réseau pour cette machine virtuelle de stockage. La modification des services est requise, car elle permet à Cloud Volumes ONTAP d'utiliser la LIF iSCSI pour les connexions de gestion sortantes.
 
-Notez que la modification des services LIF n'est pas requise pour Cloud Volumes ONTAP dans Google Cloud, car l'API Cloud Manager définit les services LIF pour vous lors de la création.
+Notez que la modification des services LIF n'est pas nécessaire pour Cloud Volumes ONTAP dans Google Cloud car l'API BlueXP définit les services LIF pour vous lors de la création.
 
 Les commandes que vous devez exécuter sont spécifiées dans les pages suivantes :
 
@@ -116,21 +124,21 @@ Lisez ces notes pour en savoir plus sur la mise à niveau vers cette version.
 
 === Comment mettre à niveau
 
-La mise à niveau d'Cloud Volumes ONTAP doit être effectuée depuis Cloud Manager. Vous ne devez pas mettre à niveau Cloud Volumes ONTAP à l'aide de System Manager ou de l'interface de ligne de commandes. Cela peut affecter la stabilité du système.
+Les mises à niveau de Cloud Volumes ONTAP doivent être effectuées depuis BlueXP. Vous ne devez pas mettre à niveau Cloud Volumes ONTAP à l'aide de System Manager ou de l'interface de ligne de commandes. Cela peut affecter la stabilité du système.
 
-http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Découvrez comment effectuer la mise à niveau lorsque Cloud Manager vous informe"^].
+http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Découvrez comment effectuer la mise à niveau lorsque BlueXP vous avertit"^].
 
 
 
 === Chemin de mise à niveau pris en charge
 
-Vous pouvez effectuer la mise à niveau vers Cloud Volumes ONTAP 9.11.1 à partir de la version 9.11.0 et de la version 9.10.1. Cloud Manager vous invite à mettre à niveau les systèmes Cloud Volumes ONTAP éligibles vers cette version.
+Vous pouvez effectuer la mise à niveau vers Cloud Volumes ONTAP 9.11.1 à partir de la version 9.11.0 et de la version 9.10.1. BlueXP vous invitera à mettre à niveau les systèmes Cloud Volumes ONTAP éligibles vers cette version.
 
 
 
 === Version requise du connecteur
 
-Cloud Manager Connector doit exécuter la version 3.9.19 ou ultérieure pour déployer de nouveaux systèmes Cloud Volumes ONTAP 9.11.1 et mettre à niveau les systèmes existants vers la version 9.11.1.
+Le connecteur BlueXP doit exécuter la version 3.9.19 ou ultérieure pour déployer de nouveaux systèmes Cloud Volumes ONTAP 9.11.1 et mettre à niveau les systèmes existants vers la version 9.11.1.
 
 
 TIP: Les mises à niveau automatiques du connecteur sont activées par défaut, vous devez donc exécuter la dernière version.

@@ -52,4 +52,5 @@ Les fichiers de notification fournissent des informations sur les droits d'auteu
 
 * link:media/notice-aws.pdf["Cloud Volumes ONTAP 9.11.1 médiateur dans AWS"^]
 * link:media/notice-google-cloud.pdf["Cloud Volumes ONTAP 9.11.1 médiateur dans Google Cloud"^]
+* https://docs.netapp.com/us-en/ontap/reference_legal_notices.html#open-source["Notification relative à ONTAP"^]
 

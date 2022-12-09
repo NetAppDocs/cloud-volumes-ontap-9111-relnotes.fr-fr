@@ -22,7 +22,7 @@ Cloud Volumes ONTAP présente des limites de configuration du stockage pour assu
 
 La capacité système maximale d'un système Cloud Volumes ONTAP est déterminée par sa licence. La capacité système maximale inclut le stockage sur disque et le stockage objet utilisé pour le Tiering des données.
 
-NetApp ne prend pas en charge le dépassement de la limite de capacité système. Si vous atteignez la limite de capacité sous licence, Cloud Manager affiche un message d'action requise et ne vous permet plus d'ajouter des disques supplémentaires.
+NetApp ne prend pas en charge le dépassement de la limite de capacité système. Si vous atteignez la limite de capacité sous licence, BlueXP affiche un message d'action requise et ne vous permet plus d'ajouter des disques supplémentaires.
 
 [cols="25,75"]
 |===
@@ -46,6 +46,7 @@ NetApp ne prend pas en charge le dépassement de la limite de capacité système
 
 | Licence basée sur la capacité | 2 Pio 
 |===
+.Pour la haute disponibilité, la capacité de licence est-elle limitée par nœud ou pour la paire HA entière ?
 La limite de capacité s'adresse à l'ensemble de la paire haute disponibilité. Il n'est pas par nœud. Par exemple, si vous utilisez la licence Premium, vous pouvez disposer d'une capacité pouvant atteindre 368 Tio entre les deux nœuds.
 
 

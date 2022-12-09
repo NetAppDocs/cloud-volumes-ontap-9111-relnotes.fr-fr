@@ -13,7 +13,7 @@ settings:
     version-number: 9.11.1
   - name: Cloud Volumes ONTAP
     url: "/cloud-volumes-ontap-relnotes"
-    version-number: 9.12.0
+    version-number: 9.12.1
   - name: Cloud Volumes ONTAP
     url: "/cloud-volumes-ontap-9110-relnotes"
     version-number: 9.11.0
@@ -124,11 +124,11 @@ homepage:
     links:
     - title: Communauté NetApp
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog Cloud Central
+    - title: Blog BlueXP
       url: https://cloud.netapp.com/blog
     - title: Webinaires sur le cloud
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: Toute la documentation de Cloud Manager
+  sidebar_label: Toute la documentation BlueXP
