@@ -20,6 +20,14 @@ D'autres fonctionnalités et améliorations sont également introduites dans les
 
 
 
+== 9.11.1 P4 (18 décembre 2022)
+
+Le correctif 9.11.1 P4 est désormais disponible pour Cloud Volumes ONTAP pour tous les fournisseurs de cloud si vous disposez d'un connecteur exécutant la version 3.9.24 ou ultérieure. BlueXP vous invitera à mettre à niveau vos systèmes existants vers cette version de correctif.
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.11.1P4["Consultez la liste des bugs corrigés dans le patch P4"^] (Identifiant du site du support NetApp requis).
+
+
+
 == 9.11.1 P3 (19 octobre 2022)
 
 Le correctif 9.11.1 P3 est désormais disponible pour Cloud Volumes ONTAP pour tous les fournisseurs cloud si un connecteur exécute la version 3.9.22 ou ultérieure. BlueXP vous invitera à mettre à niveau vos systèmes existants vers cette version de correctif.
