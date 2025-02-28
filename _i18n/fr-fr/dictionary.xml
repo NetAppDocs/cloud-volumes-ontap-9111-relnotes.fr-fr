@@ -354,7 +354,6 @@
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="list-text">Cloud Volumes ONTAP peut être exécuté sur une instance EC2 réservée ou à la demande. Les solutions utilisant d'autres types d'instances ne sont pas prises en charge.</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">Régions prises en charge</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Régions Cloud volumes Global</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="paragraph">Pour la prise en charge de chaque région AWS, consultez la section<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="56ca786dd848302142c428b36f1c8b30" category="summary">Cette page décrit comment NetApp travaille avec les fournisseurs cloud pour résoudre les problèmes potentiels.</block>
   <block id="b67ce24b0ef9db5e8910cc39a69b1ef6" category="doc">Les intégrations avec les fournisseurs cloud</block>
   <block id="3ecb2b72be9054cc88589bb0cf193ca9" category="section-title">Bonnes pratiques de support collaboratif</block>
@@ -445,7 +444,6 @@
   <block id="46e869bc0f7a5fcdc09df010e1f48b25" category="list-text">Le type de machine Custom-4-16384 n'est plus pris en charge par les nouveaux systèmes Cloud Volumes ONTAP.</block>
   <block id="0e3cb01898d99d0091e2a6f5a7572390" category="paragraph">Si vous disposez d'un système existant fonctionnant sur ce type de machine, vous pouvez continuer à l'utiliser, mais nous vous recommandons de passer au type de machine n2-standard-4.</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">Les performances d'écriture améliorées sont activées lorsque l'utilisation de disques SSD est utilisée.</block>
-  <block id="7093754c2bc2f151c7deef337385971a" category="list-text">Pour la prise en charge par région Google Cloud Platform, rendez-vous sur<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">Cloud Volumes ONTAP peut être exécuté sur une instance de machine virtuelle réservée ou à la demande auprès de votre fournisseur cloud. Les solutions qui utilisent d'autres types d'instances VM ne sont pas prises en charge.</block>
   <block id="d29bff99e1f1d5529824e9017672d630" category="paragraph">Dans Google Cloud, un agrégat peut contenir jusqu'à 6 disques de même type et de même taille. Les tailles de disque suivantes sont prises en charge :</block>
   <block id="dcfebc6fbca2c5316f55c914e6593d2d" category="list-text">100 GO</block>
@@ -579,7 +577,6 @@
   <block id="9147ab73e7498660eae7ed2b4b8cca5c" category="list-text">Ces types de VM utilisent un<block ref="d656d82278337f3ecf8db6b2a30a45f2" category="inline-link-rx"></block> Pour VNVRAM, ce qui offre de meilleures performances d'écriture.</block>
   <block id="d2f103c82b43ca5f2da33f93d94bde64" category="paragraph">Si vous choisissez l'un de ces types de VM lorsque vous déployez un nouveau système Cloud Volumes ONTAP, vous ne pouvez pas passer à un autre type de VM qui _n'utilise pas_ un SSD Ultra pour VNVRAM. Par exemple, vous ne pouvez pas passer de E8ds_v4 à E8s_v3, mais vous pouvez passer de E8ds_v4 à E32ds_v4 car ces deux types de VM utilisent des SSD Ultra.</block>
   <block id="c0f95d0d2e06eba7eb0522dabf1c9d76" category="paragraph">Inversement, si vous avez déployé Cloud Volumes ONTAP à l'aide d'un autre type de VM, vous ne pourrez pas passer à un type de VM utilisant un SSD Ultra pour VNVRAM. Par exemple, vous ne pouvez pas passer de E8s_v3 à E8ds_v4.</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Pour la prise en charge par région Azure, consultez la section<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="2eacfdd792ca3ab121472c95654b43ec" category="paragraph">Lors du déploiement de Cloud Volumes ONTAP en tant que paire HA dans Azure, vous pouvez choisir l'une des configurations suivantes.</block>
   <block id="2cdb7e570d475b109f07d648d27eec58" category="list-text">DS5_v2 ^1^</block>
   <block id="5631d6c294c4b6398535b6dd0c9a2475" category="list-text">DS14_v2 ^1^</block>
@@ -669,7 +666,6 @@
   <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">Pour un système haute disponibilité dans AWS, est-ce que les données en miroir sont prises en compte avec la limite de capacité ?</block>
   <block id="59f715c959b1702bb88d03230a637982" category="paragraph">Non, ce n'est pas le cas. Les données d'une paire HA AWS sont mises en miroir de manière synchrone entre les nœuds, de sorte que les données soient disponibles en cas de panne. Par exemple, si vous achetez un disque de 8 Tio sur le nœud A, BlueXP alloue également un disque de 8 Tio sur le nœud B utilisé pour les données en miroir. Tandis que la capacité de 16 Tio a été provisionnée, seuls 8 Tio compte par rapport à la limite de licence.</block>
   <block id="846a4ecea919427b6111365c125ada6f" category="list-text">Le nombre indiqué dans ces colonnes inclut la machine virtuelle de stockage initiale que BlueXP crée par défaut. Par exemple, si 24 est répertorié dans cette colonne, cela signifie que vous pouvez créer 23 machines virtuelles de stockage supplémentaires pour un total de 24.</block>
-  <block id="8e36f0f32d75ebd3c7851e726c538544" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block></block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
   <block id="90d21e45df2b69a8345b8381643767db" category="section-title">9.11.1 P4 (18 décembre 2022)</block>
   <block id="c4426846e80c44f78da5d2553c87de70" category="paragraph">Le correctif 9.11.1 P4 est désormais disponible pour Cloud Volumes ONTAP pour tous les fournisseurs de cloud si vous disposez d'un connecteur exécutant la version 3.9.24 ou ultérieure. BlueXP vous invitera à mettre à niveau vos systèmes existants vers cette version de correctif.</block>
@@ -711,4 +707,9 @@
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Limites de l'utilisation des extensions de machines virtuelles Azure</block>
   <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Dans un déploiement, Cloud Volumes ONTAP ne prend pas en charge les extensions de machines virtuelles et les applications de machines virtuelles Azure. L'utilisation d'Cloud Volumes ONTAP dans Azure avec des extensions de machine virtuelle entraîne des retards dans les opérations, et NetApp recommande de les éviter.</block>
   <block id="a6a5c1a899440957680fc148200db01f" category="sidebar">Notes de version de Cloud Volumes ONTAP 9.11.1</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="paragraph">Pour la prise en charge des régions AWS, voir<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Pour la prise en charge des régions Azure, voir<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Pour obtenir une prise en charge par région de Google Cloud Platform, consultezla section<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="5a94f18247116693735ff13d8eeaa964" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block></block>
+  <block id="c1a328cf0660e851f6654745d3aca99e" category="paragraph"><block ref="c1a328cf0660e851f6654745d3aca99e" category="inline-link-rx"></block></block>
 </blocks>
